@@ -1,21 +1,578 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Anchalo Thomson</title>
+    <title>Anchalo Thomson — Mechanical Engineer</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
+
 <body>
 
-    <h1>ANCHALO THOMSON</h1>
+
+    <!-- =====================================================
+         NAVIGATION
+         This is hidden on initial load.
+         It appears after scrolling.
+    ====================================================== -->
+
+    <nav class="nav" id="nav">
+
+        <div class="nav-logo">
+            AT
+        </div>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#more">More</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="theme-button" id="themeButton">
+            ◐
+        </button>
+
+    </nav>
+
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <header class="hero">
+
+        <div class="hero-name">
+
+            <h1>
+                ANCHALO<br>
+                <span>THOMSON</span>
+            </h1>
+
+            <div class="hero-subtitle">
+                Mechanical Engineer
+                <span>•</span>
+                R&D
+                <span>•</span>
+                Product Development
+            </div>
+
+        </div>
+
+
+        <!--
+            PUT YOUR BLENDER / UE5 VIDEO HERE.
+
+            Example:
+
+            <video autoplay muted loop playsinline>
+                <source src="assets/showreel.mp4" type="video/mp4">
+            </video>
+        -->
+
+        <div class="hero-visual">
+
+            <div class="hero-grid"></div>
+
+            <div class="hero-placeholder">
+                YOUR PROJECT SHOWREEL
+            </div>
+
+        </div>
+
+
+        <div class="scroll">
+
+            Scroll to explore
+
+            <div class="scroll-line"></div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         ABOUT
+    ====================================================== -->
+
+    <section class="about" id="about">
+
+        <div class="about-text">
+
+            <div class="section-label">
+                About me
+            </div>
+
+            <h2 class="section-title">
+                Engineering solutions
+                driven by curiosity and
+                passion for <span>innovation.</span>
+            </h2>
+
+            <p>
+                I specialize in mechanical design, R&D and
+                product development. From concept development
+                and CAD modelling to prototyping and testing,
+                I build efficient and reliable mechanical systems.
+            </p>
+
+            <a href="#" class="resume-button">
+                View Resume ↓
+            </a>
+
+        </div>
+
+
+        <div class="stats">
+
+            <div class="stat">
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Major Projects</div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Technologies</div>
+            </div>
+
+            <div class="stat">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Dedication</div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PROJECTS
+    ====================================================== -->
+
+    <section class="projects" id="projects">
+
+        <div class="projects-heading">
+
+            <div>
+
+                <div class="section-label">
+                    Featured
+                </div>
+
+                <h2 class="section-title">
+                    Projects
+                </h2>
+
+            </div>
+
+            <a href="#" class="view-all">
+                View all projects →
+            </a>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <!-- PROJECT 01 -->
+
+            <article class="project-card">
+
+                <div>
+
+                    <div class="project-image">
+
+                        <!--
+                            Replace with:
+                            assets/marine-battery.jpg
+                        -->
+
+                        <img
+                            src="assets/marine-battery.jpg"
+                            alt="Marine Battery System"
+                        >
+
+                    </div>
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <h3>
+                        Marine Battery System
+                    </h3>
+
+                    <p>
+                        R&D and mechanical design of marine
+                        battery enclosure with thermal management
+                        and steering integration.
+                    </p>
+
+                </div>
+
+                <div class="tags">
+
+                    <span class="tag">R&D</span>
+                    <span class="tag">CAD</span>
+                    <span class="tag">MARINE</span>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 02 -->
+
+            <article class="project-card">
+
+                <div>
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/amphibious-bike.jpg"
+                            alt="Amphibious Electric Bike"
+                        >
+
+                    </div>
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <h3>
+                        Amphibious Electric Bike
+                    </h3>
+
+                    <p>
+                        Design and development of an amphibious
+                        electric bike with sealed drive system
+                        and buoyant structure.
+                    </p>
+
+                </div>
+
+                <div class="tags">
+
+                    <span class="tag">DESIGN</span>
+                    <span class="tag">PROTOTYPE</span>
+                    <span class="tag">MECHANICAL</span>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 03 -->
+
+            <article class="project-card">
+
+                <div>
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/wind-energy.jpg"
+                            alt="Wind Energy R&D"
+                        >
+
+                    </div>
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <h3>
+                        Wind Energy R&D
+                    </h3>
+
+                    <p>
+                        Aerodynamic studies, rotor sail and
+                        suction sail concept development for
+                        improved wind energy efficiency.
+                    </p>
+
+                </div>
+
+                <div class="tags">
+
+                    <span class="tag">AERODYNAMICS</span>
+                    <span class="tag">RESEARCH</span>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- PROJECT 04 -->
+
+            <article class="project-card">
+
+                <div>
+
+                    <div class="project-image">
+
+                        <img
+                            src="assets/weed-cutter.jpg"
+                            alt="Autonomous Weed Cutter"
+                        >
+
+                    </div>
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <h3>
+                        Autonomous Weed Cutter
+                    </h3>
+
+                    <p>
+                        Autonomous AI based weed cutter with
+                        terrain adaptation and obstacle
+                        avoidance.
+                    </p>
+
+                </div>
+
+                <div class="tags">
+
+                    <span class="tag">AI</span>
+                    <span class="tag">ROBOTICS</span>
+                    <span class="tag">EMBEDDED</span>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         EXPERIENCE
+    ====================================================== -->
+
+    <section class="experience" id="experience">
+
+        <div>
+
+            <div class="section-label">
+                Experience
+            </div>
+
+            <h2 class="section-title">
+                Engineering
+                <span>experience.</span>
+            </h2>
+
+            <div class="timeline">
+
+
+                <div class="job">
+
+                    <h3>
+                        Mechanical Engineer
+                    </h3>
+
+                    <div class="job-company">
+                        NAVALT — Marine Electric Boats
+                    </div>
+
+                    <div class="job-date">
+                        Aug 2022 — Present
+                    </div>
+
+                    <p>
+                        R&D on marine systems, battery
+                        integration, steering systems and
+                        mechanical product development.
+                    </p>
+
+                </div>
+
+
+                <div class="job">
+
+                    <h3>
+                        Junior Mechanical Engineer
+                    </h3>
+
+                    <div class="job-company">
+                        NAVALT — Marine Electric Boats
+                    </div>
+
+                    <div class="job-date">
+                        Jan 2022 — Jul 2022
+                    </div>
+
+                    <p>
+                        Supported design, analysis and
+                        development of marine components
+                        and mechanical systems.
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="experience-visual">
+
+            <!--
+                Later you can put your Blender/UE5
+                marine boat animation here.
+            -->
+
+            <span>
+                ENGINEERING / R&D
+            </span>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MORE
+    ====================================================== -->
+
+    <section class="more" id="more">
+
+        <div class="section-label">
+            Explore
+        </div>
+
+        <h2 class="section-title">
+            More <span>about me.</span>
+        </h2>
+
+
+        <div class="more-grid">
+
+            <a href="#" class="more-item">
+
+                <h3>
+                    Experience
+                </h3>
+
+                <div class="more-arrow">
+                    →
+                </div>
+
+            </a>
+
+
+            <a href="#" class="more-item">
+
+                <h3>
+                    About
+                </h3>
+
+                <div class="more-arrow">
+                    →
+                </div>
+
+            </a>
+
+
+            <a href="#" class="more-item">
+
+                <h3>
+                    Skills
+                </h3>
+
+                <div class="more-arrow">
+                    →
+                </div>
+
+            </a>
+
+
+            <a href="#contact" class="more-item">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <div class="more-arrow">
+                    →
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CONTACT
+    ====================================================== -->
+
+    <section class="contact" id="contact">
+
+        <div class="section-label">
+            Let's connect
+        </div>
+
+        <h2 class="section-title">
+            Have a project in <span>mind?</span>
+        </h2>
+
+        <p>
+            Let's build something interesting.
+        </p>
+
+        <a
+            class="email"
+            href="mailto:your@email.com"
+        >
+            your@email.com
+        </a>
+
+    </section>
+
+
+
+    <footer>
+
+        © 2026 Anchalo Thomson
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
 
     <script src="script.js"></script>
 
 </body>
-
 </html>
